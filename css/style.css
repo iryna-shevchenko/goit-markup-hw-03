@@ -7,6 +7,28 @@
     --ocean: #404BBF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 button {
     cursor: pointer;
 }
@@ -20,12 +42,25 @@ body {
     letter-spacing: 0.02em;
 }
 
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -36,6 +71,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--iris);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo .accent {
@@ -53,6 +89,25 @@ a {
     color: var(--ocean);
 }
 
+.page-header-container {
+    display: flex; 
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contacts {
+    display: flex;
+    column-gap: 40px;
+}
+
 .contacts-link {
     line-height: 1.5;
     color: var(--slate);
@@ -65,10 +120,12 @@ a {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .hero-section {
     background-color: var(--navyblue);
+    text-align: center;
 }
 
 .hero-title {
@@ -80,6 +137,33 @@ a {
     letter-spacing: 0.02em;
 }
 
+.advantage {
+    padding-top: 120px;
+    padding-bottom: 158px;
+}
+
+.advantage-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.advantage-list-item {
+    width: calc((100%-72px) / 4);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .button {
     font-weight: 500;
     line-height: 1.5;
@@ -88,6 +172,7 @@ a {
     background-color: var(--iris);
     border: none;
 }
+
 
 .button:hover,
 .button:focus {
@@ -100,6 +185,7 @@ a {
     line-height: 1.2;
     color: var(--navyblue);
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantage-text {
@@ -118,6 +204,10 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.our-company {
+    display: flex;
 }
 
 .our-company-card {
