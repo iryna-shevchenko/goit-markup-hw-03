@@ -102,7 +102,8 @@ a {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts {
@@ -127,7 +128,8 @@ a {
 
 .hero-section {
     background-color: var(--navyblue);
-    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -137,6 +139,7 @@ a {
     text-align: center;
     color: var(--white);
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .advantage {
@@ -173,6 +176,10 @@ a {
     color: var(--white);
     background-color: var(--iris);
     border: none;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 
