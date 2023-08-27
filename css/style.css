@@ -83,6 +83,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     color: var(--navyblue);
+    padding: 24px 0;
 }
 
 .header-link:hover,
@@ -102,8 +103,7 @@ a {
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .contacts {
@@ -153,7 +153,7 @@ a {
 
 .advantage-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .advantage-list-item {
