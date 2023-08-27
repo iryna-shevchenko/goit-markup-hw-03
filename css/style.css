@@ -141,10 +141,14 @@ a {
     color: var(--white);
     letter-spacing: 0.02em;
     max-width: 496px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .advantage {
     padding: 120px 0;
+    gap: 24px;
 }
 
 .advantage-list {
@@ -177,10 +181,12 @@ a {
     color: var(--white);
     background-color: var(--iris);
     border: none;
-    display: block;
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -310,12 +316,12 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo .accent {
     color: var(--cloud);
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-idea {
