@@ -103,7 +103,7 @@ a {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
 .contacts {
@@ -124,8 +124,6 @@ a {
 .address {
     font-style: normal;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .hero-section {
@@ -144,6 +142,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 48px;
 }
 
 .advantage {
@@ -157,7 +156,7 @@ a {
 }
 
 .advantage-list-item {
-    width: calc((100%-72px) / 4);
+    width: calc((100% - 72px) / 4);
     gap: 24px;
 }
 
@@ -299,7 +298,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .footer {
